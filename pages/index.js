@@ -38,7 +38,7 @@ export default function Home() {
             value={productInput}
             onChange={(e) => setproductInput(e.target.value)}
           />
-          <input type="submit" value="Generate Ad Copy" />
+          <input type="submit" value="Generate Idea" />
         </form>
         <div className={styles.result}>{result}</div>
       </main>
