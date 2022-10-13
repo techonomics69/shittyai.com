@@ -26,8 +26,16 @@ export default function Home() {
         <title>Shitty Business Ideas </title>
         <link rel="icon" href="/dog.png" />
       </Head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LPGLCNSEMP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-      <main className={styles.main}>
+  gtag('config', 'G-LPGLCNSEMP');
+</script>
+  <main className={styles.main}>
         <img src="/r31-logo.svg" alt="Rocket 31 Logo" className={styles.icon} />
         <h3>Enter a product</h3>
         <form onSubmit={onSubmit}>
