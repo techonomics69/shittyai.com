@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Facebook Ads Creator</title>
+        <title>Shitty Business Ideas </title>
         <link rel="icon" href="/dog.png" />
       </Head>
 
