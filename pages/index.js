@@ -34,7 +34,8 @@ export default function Home() {
           <input
             type="text"
             name="product"
-            placeholder="Enter a product name"
+            placeholder="Got a shitty idea..."
+            placeholder="Lets make it worse..."
             value={productInput}
             onChange={(e) => setproductInput(e.target.value)}
           />
