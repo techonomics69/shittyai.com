@@ -23,6 +23,16 @@ export default function Home() {
   return (
     <div>
       <Head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MZNF6M61TH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MZNF6M61TH');
+</script>
+  
         <title>Shitty Business Ideas </title>
         <link rel="icon" href="/dog.png"/>
       </Head>
